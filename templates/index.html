@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Object Detection</title>
+  <link rel="stylesheet" type="text/css" href="../static/Deployment Detection Style.css">
+  
+  <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../static/index.js"></script>
+</head>
+<body>
+
+
+<div class='App'>
+  <header class='App-header'>
+    <p><u>
+      Object Detection PCB
+    </u></p>
+
+
+
+
+    <div class="container cf">
+      <div class="topbutton">
+          <img class="logo" src="../static\Logo Detamp Putih.png" alt="Logo DETAMP">
+          <p class="judulsatu">DETAMP</p>
+          <p class="juduldua">Defection Template Matching PCB</p>
+          <div class="topbuttonmenu">
+              <ul class="menu">
+                  <li class="list11"> <div></div></li>
+                  <li class="list1"><a href="/Deployment">Home</a></li>
+                  <li class="list2"><a href="/">Detection</a></li>
+                  <li class="list3"><a href="#">Developer</a></li>
+                  <li class="list4"><a href="#">About</a></li>
+              </ul>
+             
+          </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- PRE-IMAGE -- NAMPILIN IMAGE HASIL DETECTION -->
+    <div className="pre_img">
+      <span><img id="imagebox" src=""></span>
+    </div>
+    <!-- END PRE-IMAGE -->
+
+    <!-- DOWNLOAD RESULT SECTION -->
+    <div id="link">
+      <a href="" id="download" download>Download</a>
+    </div>
+    <!-- END DOWNLOAD RESULT SECTION -->
+
+    <!-- CHOOSE FILE TO INPUT -->
+    <form>
+      <input id="imageinput" type="file" name="image" onchange="readUrl(this)">
+    </form>
+    <button name="send" id="sendbutton">Send</button>
+    <!-- END CHOOSE FILE -->
+    
+  </header>
+</div>
+
+</body>
+</html>
