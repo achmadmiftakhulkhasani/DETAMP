@@ -4,6 +4,7 @@ DETAMP (Defection Template Matching PCB) adalah model machine learning AI Comput
 Step by Step
 
 1.download file data pada link tersebut 
+
 (checkpoints) https://drive.google.com/file/d/1UmMugpgDqP8ZFhLIMHaEG1HRQWa2eWth/view?usp=sharing 
 
 (yolov4-pcb.weights)  https://drive.google.com/file/d/1EHxZblCSBCqAJrT9RpmZy7JR8itXMUam/view?usp=sharing 
